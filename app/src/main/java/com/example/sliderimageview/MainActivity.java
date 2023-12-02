@@ -27,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
         list.add(new CarouselItem("https://images.unsplash.com/photo-1700771266232-7a31af68eb31?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"));
         list.add(new CarouselItem("https://images.unsplash.com/photo-1682687218147-9806132dc697?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"));
         carousel.setData(list);
+        imageCarousel.setAutoPlay(true);
     }
 }
